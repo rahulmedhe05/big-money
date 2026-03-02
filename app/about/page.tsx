@@ -71,7 +71,7 @@ export default function AboutPage() {
         {/* Hero with Image Slider */}
         <HeroSlider images={aboutHeroImages} overlayOpacity={65}>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
-            <div>
+            <div className="order-last lg:order-first">
               <div className="inline-flex items-center gap-2 bg-[#f97316]/20 border border-[#f97316]/30 text-[#f97316] px-3 py-1 rounded-full text-xs font-medium mb-4 backdrop-blur-sm">
                 About Us
               </div>
@@ -85,7 +85,7 @@ export default function AboutPage() {
                 projects that shape the UAE&apos;s industrial landscape.
               </p>
             </div>
-            <div className="hidden lg:block">
+            <div className="order-first lg:order-last">
               <HeroBookingForm />
             </div>
           </div>

@@ -68,7 +68,7 @@ export default function ContactPage() {
         {/* Hero with Image Slider */}
         <HeroSlider images={contactHeroImages} overlayOpacity={70}>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
-            <div>
+            <div className="order-last lg:order-first">
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
                 Contact GoPlnr Industrial Solutions
               </h1>
@@ -77,7 +77,7 @@ export default function ContactPage() {
                 expert guidance and no-obligation project assessments.
               </p>
             </div>
-            <div className="hidden lg:block">
+            <div className="order-first lg:order-last">
               <HeroBookingForm />
             </div>
           </div>
