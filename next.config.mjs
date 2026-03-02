@@ -4,12 +4,7 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "images.unsplash.com",
-      },
-    ],
+    // All images are now served locally from public/images/
   },
 }
 
