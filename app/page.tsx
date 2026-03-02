@@ -66,7 +66,7 @@ export default function HomePage() {
       {/* Hero Section with Image Slider */}
       <HeroSlider images={homepageHeroImages} overlayOpacity={65}>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
-          <div>
+          <div className="order-last lg:order-first">
             <div className="inline-flex items-center gap-2 bg-[#f97316]/20 border border-[#f97316]/30 text-[#f97316] px-4 py-1.5 rounded-full text-sm font-medium mb-6 backdrop-blur-sm">
               <Building2 className="h-4 w-4" />
               Turnkey EPC Contractor — Dubai · Abu Dhabi · Sharjah
@@ -97,7 +97,7 @@ export default function HomePage() {
               </a>
             </div>
           </div>
-          <div className="hidden lg:block">
+          <div className="order-first lg:order-last">
             <HeroBookingForm />
           </div>
         </div>
