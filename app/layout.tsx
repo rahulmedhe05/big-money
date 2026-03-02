@@ -87,6 +87,8 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.variable}>
       <head>
+        {/* Google Search Console Verification */}
+        <meta name="google-site-verification" content="jtEPscjoxpozEAYNsNwHiBmfguToLl1W-6U8lGrAghk" />
         {/* Organization Schema */}
         <script
           type="application/ld+json"
