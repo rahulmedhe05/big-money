@@ -59,13 +59,13 @@ export default function PrivacyPage() {
 
             <section>
               <h2 className="text-lg font-bold text-[#0c2340] mt-8 mb-3">6. Your Rights</h2>
-              <p>You have the right to access, correct, or delete your personal information held by us. To exercise these rights, contact us at info@goplnr.ae.</p>
+              <p>You have the right to access, correct, or delete your personal information held by us. To exercise these rights, contact us at info@goplnr.com.</p>
             </section>
 
             <section>
               <h2 className="text-lg font-bold text-[#0c2340] mt-8 mb-3">7. Contact</h2>
               <p>For privacy-related inquiries, contact:</p>
-              <p>GoPlnr Industrial Solutions UAE<br />Business Bay, Dubai, UAE<br />Email: info@goplnr.ae<br />WhatsApp: <a href="https://wa.me/916353583148" target="_blank" rel="noopener noreferrer" className="text-[#25d366] hover:underline">Message us</a></p>
+              <p>GoPlnr Industrial Solutions UAE<br />Business Bay, Dubai, UAE<br />Email: info@goplnr.com<br />WhatsApp: <a href="https://wa.me/916353583148" target="_blank" rel="noopener noreferrer" className="text-[#25d366] hover:underline">Message us</a></p>
             </section>
           </div>
         </div>

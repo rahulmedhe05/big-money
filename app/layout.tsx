@@ -29,9 +29,9 @@ export const metadata: Metadata = {
   authors: [{ name: "GoPlnr Industrial Solutions UAE" }],
   creator: "GoPlnr Industrial Solutions UAE",
   publisher: "GoPlnr Industrial Solutions UAE",
-  metadataBase: new URL("https://goplnr.ae"),
+  metadataBase: new URL("https://goplnr.com"),
   alternates: {
-    canonical: "https://goplnr.ae",
+    canonical: "https://goplnr.com",
   },
   formatDetection: {
     email: true,
@@ -45,10 +45,10 @@ export const metadata: Metadata = {
     siteName: "GoPlnr Industrial Solutions UAE",
     locale: "en_AE",
     type: "website",
-    url: "https://goplnr.ae",
+    url: "https://goplnr.com",
     images: [
       {
-        url: "https://goplnr.ae/images/hero/construction-site.jpg",
+        url: "https://goplnr.com/images/hero/construction-site.jpg",
         width: 1200,
         height: 630,
         alt: "GoPlnr Industrial Solutions — Turnkey EPC Contractor UAE",

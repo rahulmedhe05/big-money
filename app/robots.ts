@@ -45,7 +45,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/api/", "/_next/static/", "/_next/image/"],
       },
     ],
-    sitemap: "https://goplnr.ae/sitemap.xml",
-    host: "https://goplnr.ae",
+    sitemap: "https://goplnr.com/sitemap.xml",
+    host: "https://goplnr.com",
   }
 }

@@ -96,8 +96,8 @@ export function Footer() {
               <a href="https://wa.me/916353583148" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm hover:text-[#25d366] transition-colors">
                 <MessageCircle className="h-4 w-4 text-[#25d366]" /> Message on WhatsApp
               </a>
-              <a href="mailto:info@goplnr.ae" className="flex items-center gap-2 text-sm hover:text-[#f97316] transition-colors">
-                <Mail className="h-4 w-4 text-[#f97316]" /> info@goplnr.ae
+              <a href="mailto:info@goplnr.com" className="flex items-center gap-2 text-sm hover:text-[#f97316] transition-colors">
+                <Mail className="h-4 w-4 text-[#f97316]" /> info@goplnr.com
               </a>
               <div className="flex items-start gap-2 text-sm">
                 <MapPin className="h-4 w-4 text-[#f97316] mt-0.5" />

@@ -2,7 +2,7 @@ import { MetadataRoute } from "next"
 import { services } from "@/lib/services"
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://goplnr.ae"
+  const baseUrl = "https://goplnr.com"
   const now = new Date("2026-03-03")
 
   // ── Service pages — high priority, rich with keywords ──

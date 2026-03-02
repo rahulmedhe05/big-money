@@ -153,9 +153,9 @@ export const organizationSchema = {
   alternateName: "GoPlnr",
   description:
     "Leading turnkey EPC contractor for mega industrial and infrastructure projects across the UAE including warehouses, data centers, solar farms, factories, water treatment plants, hotels, cold storage, industrial retrofits, EV charging stations, and healthcare facilities.",
-  url: "https://goplnr.ae",
-  logo: "https://goplnr.ae/logo.png",
-  image: "https://goplnr.ae/images/hero/construction-site.jpg",
+  url: "https://goplnr.com",
+  logo: "https://goplnr.com/logo.png",
+  image: "https://goplnr.com/images/hero/construction-site.jpg",
   foundingDate: "2010",
   numberOfEmployees: {
     "@type": "QuantitativeValue",
@@ -166,14 +166,14 @@ export const organizationSchema = {
     {
       "@type": "ContactPoint",
       contactType: "sales",
-      email: "info@goplnr.ae",
+      email: "info@goplnr.com",
       areaServed: ["AE"],
       availableLanguage: ["English", "Arabic", "Hindi", "Urdu"],
     },
     {
       "@type": "ContactPoint",
       contactType: "customer support",
-      email: "info@goplnr.ae",
+      email: "info@goplnr.com",
       areaServed: ["AE"],
       availableLanguage: ["English", "Arabic"],
     },
@@ -205,7 +205,7 @@ export const organizationSchema = {
         "@type": "Service",
         name: s.title,
         description: s.description,
-        url: `https://goplnr.ae/services/${s.slug}`,
+        url: `https://goplnr.com/services/${s.slug}`,
       },
     })),
   },
@@ -215,17 +215,17 @@ export const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   name: "GoPlnr Industrial Solutions UAE",
-  url: "https://goplnr.ae",
+  url: "https://goplnr.com",
   description:
     "Leading turnkey EPC contractor in the UAE for warehouse, data center, solar, factory, water treatment, hotel, cold storage, retrofit, EV charging & healthcare construction. Projects AED 5M to 100M+.",
   publisher: {
     "@type": "Organization",
     name: "GoPlnr Industrial Solutions UAE",
-    url: "https://goplnr.ae",
+    url: "https://goplnr.com",
   },
   potentialAction: {
     "@type": "SearchAction",
-    target: "https://goplnr.ae/services?q={search_term_string}",
+    target: "https://goplnr.com/services?q={search_term_string}",
     "query-input": "required name=search_term_string",
   },
 }
@@ -235,9 +235,9 @@ export function generateLocalBusinessSchema() {
     "@context": "https://schema.org",
     "@type": "GeneralContractor",
     name: "GoPlnr Industrial Solutions UAE",
-    image: "https://goplnr.ae/logo.png",
-    url: "https://goplnr.ae",
-    email: "info@goplnr.ae",
+    image: "https://goplnr.com/logo.png",
+    url: "https://goplnr.com",
+    email: "info@goplnr.com",
     description:
       "Turnkey EPC contractor for mega industrial & infrastructure projects across the UAE. Warehouse, data center, solar, factory, water treatment, hotel, cold storage, retrofit, EV charging & healthcare construction.",
     address: {
@@ -309,12 +309,12 @@ export function generateServiceSchema(service: {
     "@type": "Service",
     name: service.title,
     description: service.description,
-    url: `https://goplnr.ae/services/${service.slug}`,
+    url: `https://goplnr.com/services/${service.slug}`,
     provider: {
       "@type": "Organization",
       name: "GoPlnr Industrial Solutions UAE",
-      url: "https://goplnr.ae",
-      logo: "https://goplnr.ae/logo.png",
+      url: "https://goplnr.com",
+      logo: "https://goplnr.com/logo.png",
     },
     areaServed: [
       { "@type": "City", name: "Dubai" },
@@ -366,7 +366,7 @@ export function generateAboutPageSchema() {
     name: "About GoPlnr Industrial Solutions UAE",
     description:
       "Learn about GoPlnr Industrial Solutions — a leading turnkey EPC contractor with 15+ years delivering mega industrial projects across Dubai, Abu Dhabi & Sharjah.",
-    url: "https://goplnr.ae/about",
+    url: "https://goplnr.com/about",
     mainEntity: organizationSchema,
   }
 }
@@ -378,11 +378,11 @@ export function generateContactPageSchema() {
     name: "Contact GoPlnr Industrial Solutions UAE",
     description:
       "Contact GoPlnr Industrial Solutions for free project consultations. Get quotes for warehouse, data center, solar, factory & industrial construction across UAE.",
-    url: "https://goplnr.ae/contact",
+    url: "https://goplnr.com/contact",
     mainEntity: {
       "@type": "Organization",
       name: "GoPlnr Industrial Solutions UAE",
-      email: "info@goplnr.ae",
+      email: "info@goplnr.com",
       address: {
         "@type": "PostalAddress",
         streetAddress: "Office 1204, Bay Square Tower 1, Business Bay",

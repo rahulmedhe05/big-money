@@ -18,7 +18,7 @@ export default function TermsPage() {
 
             <section>
               <h2 className="text-lg font-bold text-[#0c2340] mt-8 mb-3">1. Acceptance of Terms</h2>
-              <p>By accessing and using the GoPlnr Industrial Solutions UAE website (&quot;goplnr.ae&quot;), you accept and agree to be bound by these Terms of Service. If you do not agree, please do not use our website.</p>
+              <p>By accessing and using the GoPlnr Industrial Solutions UAE website (&quot;goplnr.com&quot;), you accept and agree to be bound by these Terms of Service. If you do not agree, please do not use our website.</p>
             </section>
 
             <section>
@@ -59,7 +59,7 @@ export default function TermsPage() {
             <section>
               <h2 className="text-lg font-bold text-[#0c2340] mt-8 mb-3">9. Contact</h2>
               <p>For any questions regarding these terms, contact:</p>
-              <p>GoPlnr Industrial Solutions UAE<br />Business Bay, Dubai, UAE<br />Email: info@goplnr.ae<br />WhatsApp: <a href="https://wa.me/916353583148" target="_blank" rel="noopener noreferrer" className="text-[#25d366] hover:underline">Message us</a></p>
+              <p>GoPlnr Industrial Solutions UAE<br />Business Bay, Dubai, UAE<br />Email: info@goplnr.com<br />WhatsApp: <a href="https://wa.me/916353583148" target="_blank" rel="noopener noreferrer" className="text-[#25d366] hover:underline">Message us</a></p>
             </section>
           </div>
         </div>

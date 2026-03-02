@@ -42,17 +42,17 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     description: service.metaDescription,
     keywords: service.keywords.join(", "),
     alternates: {
-      canonical: `https://goplnr.ae/services/${service.slug}`,
+      canonical: `https://goplnr.com/services/${service.slug}`,
     },
     openGraph: {
       title: service.metaTitle,
       description: service.metaDescription,
-      url: `https://goplnr.ae/services/${service.slug}`,
+      url: `https://goplnr.com/services/${service.slug}`,
       type: "website",
       locale: "en_AE",
       siteName: "GoPlnr Industrial Solutions UAE",
       images: service.heroImages.map((img) => ({
-        url: `https://goplnr.ae${img.src}`,
+        url: `https://goplnr.com${img.src}`,
         alt: img.alt,
         width: 1200,
         height: 630,
@@ -88,9 +88,9 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
   const serviceSchema = generateServiceSchema(service)
   const faqSchema = generateFAQSchema(service.faqs)
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://goplnr.ae" },
-    { name: "Services", url: "https://goplnr.ae/#services" },
-    { name: service.shortTitle, url: `https://goplnr.ae/services/${service.slug}` },
+    { name: "Home", url: "https://goplnr.com" },
+    { name: "Services", url: "https://goplnr.com/#services" },
+    { name: service.shortTitle, url: `https://goplnr.com/services/${service.slug}` },
   ])
 
   return (

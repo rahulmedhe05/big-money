@@ -20,7 +20,7 @@ export interface ServiceData {
   keywords: string[]
   faqs: { question: string; answer: string }[]
   /** Long-form SEO content sections rendered below the fold (~2000+ words) */
-  detailedContent: { heading: string; body: string }[]
+  detailedContent?: { heading: string; body: string }[]
 }
 
 // ── Shared hero images for homepage slider ──

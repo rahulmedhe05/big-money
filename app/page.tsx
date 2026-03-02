@@ -48,7 +48,7 @@ export default function HomePage() {
 
   // Homepage schemas
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://goplnr.ae" },
+    { name: "Home", url: "https://goplnr.com" },
   ])
   const faqSchema = generateHomepageFAQSchema()
 

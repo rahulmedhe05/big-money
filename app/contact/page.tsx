@@ -17,12 +17,12 @@ export const metadata: Metadata = {
   keywords:
     "contact EPC contractor UAE, free construction consultation Dubai, project quote Abu Dhabi, industrial construction inquiry Sharjah, EPC project consultation UAE, request quote warehouse Dubai, data center quote Abu Dhabi, construction estimate UAE, free site assessment Dubai, industrial project inquiry",
   alternates: {
-    canonical: "https://goplnr.ae/contact",
+    canonical: "https://goplnr.com/contact",
   },
   openGraph: {
     title: "Contact GoPlnr — Free Project Consultation | EPC Contractor UAE",
     description: "Get free consultation for industrial EPC projects. Warehouse, data center, solar, factory & more. Dubai, Abu Dhabi, Sharjah.",
-    url: "https://goplnr.ae/contact",
+    url: "https://goplnr.com/contact",
     type: "website",
     locale: "en_AE",
     siteName: "GoPlnr Industrial Solutions UAE",
@@ -42,8 +42,8 @@ export const metadata: Metadata = {
 
 const contactSchema = generateContactPageSchema()
 const breadcrumbSchema = generateBreadcrumbSchema([
-  { name: "Home", url: "https://goplnr.ae" },
-  { name: "Contact", url: "https://goplnr.ae/contact" },
+  { name: "Home", url: "https://goplnr.com" },
+  { name: "Contact", url: "https://goplnr.com/contact" },
 ])
 
 export default function ContactPage() {
@@ -101,13 +101,13 @@ export default function ContactPage() {
                         <div className="font-semibold">Send Message on WhatsApp</div>
                       </div>
                     </a>
-                    <a href="mailto:info@goplnr.ae" className="flex items-center gap-3 text-gray-600 hover:text-[#f97316] transition-colors">
+                    <a href="mailto:info@goplnr.com" className="flex items-center gap-3 text-gray-600 hover:text-[#f97316] transition-colors">
                       <div className="w-10 h-10 bg-[#f97316]/10 rounded-lg flex items-center justify-center">
                         <Mail className="h-5 w-5 text-[#f97316]" />
                       </div>
                       <div>
                         <div className="text-xs text-gray-400">Email</div>
-                        <div className="font-semibold">info@goplnr.ae</div>
+                        <div className="font-semibold">info@goplnr.com</div>
                       </div>
                     </a>
                     <div className="flex items-center gap-3 text-gray-600">

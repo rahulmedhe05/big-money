@@ -20,12 +20,12 @@ export const metadata: Metadata = {
   keywords:
     "about GoPlnr Industrial Solutions, EPC contractor UAE, turnkey contractor Dubai, industrial construction company Abu Dhabi, construction firm Sharjah, EPC company UAE history, best EPC contractor Dubai, top construction company UAE, industrial solutions Abu Dhabi, mega project contractor Dubai",
   alternates: {
-    canonical: "https://goplnr.ae/about",
+    canonical: "https://goplnr.com/about",
   },
   openGraph: {
     title: "About GoPlnr Industrial Solutions — #1 EPC Contractor UAE",
     description: "15+ years delivering mega industrial projects across UAE. 150+ projects. AED 2B+ managed. Free consultation.",
-    url: "https://goplnr.ae/about",
+    url: "https://goplnr.com/about",
     type: "website",
     locale: "en_AE",
     siteName: "GoPlnr Industrial Solutions UAE",
@@ -45,8 +45,8 @@ export const metadata: Metadata = {
 
 const aboutSchema = generateAboutPageSchema()
 const breadcrumbSchema = generateBreadcrumbSchema([
-  { name: "Home", url: "https://goplnr.ae" },
-  { name: "About Us", url: "https://goplnr.ae/about" },
+  { name: "Home", url: "https://goplnr.com" },
+  { name: "About Us", url: "https://goplnr.com/about" },
 ])
 
 export default function AboutPage() {
